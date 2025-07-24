@@ -658,6 +658,37 @@ Use parentheses to control precedence.
 
 ---
 
+### 🏅 Full Python Operator Precedence Table
+<div style="background: linear-gradient(90deg, #ff9966 0%, #ff5e62 100%); padding: 12px; border-radius: 8px; color: #fff; margin-bottom: 20px;">
+<b>Operators are evaluated in the following order (highest to lowest):</b>
+</div>
+
+| Precedence | Operator(s) | Description |
+|------------|-------------|-------------|
+| 1 | `()` | Parentheses (grouping) |
+| 2 | `x[index]`, `x[index:index]`, `x.attribute`, `x(...)` | Indexing, slicing, attribute reference, function call |
+| 3 | `**` | Exponentiation |
+| 4 | `+x`, `-x`, `~x` | Unary plus, minus, bitwise NOT |
+| 5 | `*`, `/`, `//`, `%` | Multiplication, division, floor division, modulus |
+| 6 | `+`, `-` | Addition, subtraction |
+| 7 | `<<`, `>>` | Bitwise shift left, right |
+| 8 | `&` | Bitwise AND |
+| 9 | `^` | Bitwise XOR |
+| 10 | `|` | Bitwise OR |
+| 11 | `in`, `not in`, `is`, `is not`, `<`, `<=`, `>`, `>=`, `!=`, `==` | Comparisons, membership, identity |
+| 12 | `not` | Logical NOT |
+| 13 | `and` | Logical AND |
+| 14 | `or` | Logical OR |
+| 15 | `if - else` | Conditional expression |
+| 16 | `lambda` | Lambda expression |
+| 17 | `=`, `+=`, `-=`, `*=`, `/=`, `//=`, `%=`, `**=`, `&=`, `|=`, `^=`, `>>=`, `<<=` | Assignment |
+
+---
+
+**Tip:** When in doubt, use parentheses `()` to make your code clear and avoid precedence mistakes!
+
+---
+
 ### 📜 Examples
 1. **Arithmetic Operators**
    ```python
