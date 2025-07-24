@@ -569,98 +569,247 @@ print("Your age as a string:", user_age)
 
 ## <a id="day-3"></a>Day 3: Operators
 
-### 📘 **Definition: Operators**
-**Operators** are special symbols in Python that carry out arithmetic or logical computation. The value that the operator operates on is called the **operand**.
+<div style="background: linear-gradient(90deg, #f857a6 0%, #ff5858 100%); padding: 16px; border-radius: 8px; color: #fff; margin-bottom: 20px;">
+  <h3>🔢 Day 3: Operators in Python</h3>
+  <p>Operators are special symbols that perform operations on variables and values. They are the backbone of calculations, logic, and data manipulation in Python.</p>
+</div>
 
-### 🧮 **Arithmetic Operators**
-- `+` (Addition)
-- `-` (Subtraction)
-- `*` (Multiplication)
-- `/` (Division - results in a float)
-- `%` (Modulus - remainder of division)
-- `**` (Exponentiation - `x ** y` = x to the power of y)
-- `//` (Floor Division - division that results in a whole number, rounded down)
+### 🧮 Types of Operators
+| Type | Description | Examples |
+|------|-------------|----------|
+| Arithmetic | Math operations | +, -, *, /, %, **, // |
+| Comparison | Compare values | ==, !=, >, <, >=, <= |
+| Logical | Boolean logic | and, or, not |
+| Assignment | Assign values | =, +=, -=, *=, /=, %=, //=, **= |
+| Bitwise | Bit-level operations | &, |, ^, ~, <<, >> |
+| Membership | Test for membership | in, not in |
+| Identity | Test for same object | is, is not |
 
-### ⚖️ **Comparison Operators**
-- `==` (Equal to)
-- `!=` (Not equal to)
-- `>` (Greater than)
-- `<` (Less than)
-- `>=` (Greater than or equal to)
-- `<=` (Less than or equal to)
+---
 
-### 🧠 **Logical Operators**
-- `and` (Returns `True` if both statements are true)
-- `or` (Returns `True` if one of the statements is true)
-- `not` (Reverses the result, returns `False` if the result is true)
+### 🧮 Arithmetic Operators
+- `+` Addition
+- `-` Subtraction
+- `*` Multiplication
+- `/` Division (float)
+- `%` Modulus (remainder)
+- `**` Exponentiation
+- `//` Floor Division
 
-### ↔️ **Assignment Operators**
-- `=` (Assign)
-- `+=` (Add and assign, e.g., `x += 3` is `x = x + 3`)
-- `-=` (Subtract and assign)
-- `*=` (Multiply and assign)
-- `/=` (Divide and assign)
+### ⚖️ Comparison Operators
+- `==` Equal to
+- `!=` Not equal to
+- `>` Greater than
+- `<` Less than
+- `>=` Greater than or equal to
+- `<=` Less than or equal to
 
-### 📜 **Examples**
+### 🧠 Logical Operators
+- `and` Both conditions True
+- `or` At least one True
+- `not` Reverse the result
 
-1.  **Arithmetic Operators:**
+### ↔️ Assignment Operators
+- `=` Assign
+- `+=` Add and assign
+- `-=` Subtract and assign
+- `*=` Multiply and assign
+- `/=` Divide and assign
+- `%=` Modulus and assign
+- `//=` Floor divide and assign
+- `**=` Exponentiate and assign
+
+### 🧩 Bitwise Operators
+- `&` AND
+- `|` OR
+- `^` XOR
+- `~` NOT
+- `<<` Left shift
+- `>>` Right shift
+
+### 🔍 Membership Operators
+- `in`
+- `not in`
+```python
+fruits = ["apple", "banana"]
+print("apple" in fruits)  # True
+print("grape" not in fruits)  # True
+```
+
+### 🏷️ Identity Operators
+- `is`
+- `is not`
+```python
+a = [1, 2]
+
+c = [1, 2]
+print(a is b)      # True (same object)
+print(a is c)      # False (same value, different object)
+print(a == c)      # True (values are equal)
+```
+
+### 🏆 Operator Precedence
+Order in which operations are performed:
+```python
+result = 2 + 3 * 4  # 2 + (3*4) = 14
+result = (2 + 3) * 4  # (2+3)*4 = 20
+```
+Use parentheses to control precedence.
+
+---
+
+### 📜 Examples
+1. **Arithmetic Operators**
+   ```python
+   a = 10
+   b = 3
+   print("Add:", a + b)
+   print("Subtract:", a - b)
+   print("Multiply:", a * b)
+   print("Divide:", a / b)
+   print("Modulus:", a % b)
+   print("Exponent:", a ** b)
+   print("Floor Div:", a // b)
+   ```
+2. **Comparison Operators**
+   ```python
+   x = 5
+   y = 10
+   print(x == y)  # False
+   print(x != y)  # True
+   print(x > y)   # False
+   print(x <= y)  # True
+   ```
+3. **Logical Operators**
+   ```python
+   age = 22
+   is_student = True
+   print(age < 25 and is_student)  # True
+   print(age > 65 or is_student)   # True
+   print(not is_student)           # False
+   ```
+4. **Assignment Operators**
+   ```python
+   count = 0
+   count += 1
+   print(count)
+   total = 100
+   total -= 10
+   print(total)
+   ```
+5. **Bitwise Operators**
+   ```python
+   a = 5  # 0b0101
+   b = 3  # 0b0011
+   print(a & b)  # 1 (0b0001)
+   print(a | b)  # 7 (0b0111)
+   print(a ^ b)  # 6 (0b0110)
+   print(~a)     # -6 (invert bits)
+   print(a << 1) # 10 (shift left)
+   print(a >> 1) # 2 (shift right)
+   ```
+6. **Membership Operators**
+   ```python
+   colors = ["red", "green", "blue"]
+   print("red" in colors)      # True
+   print("yellow" not in colors)  # True
+   ```
+7. **Identity Operators**
+   ```python
+   x = [1, 2, 3]
+   y = x
+   z = [1, 2, 3]
+   print(x is y)  # True
+   print(x is z)  # False
+   print(x == z)  # True
+   ```
+8. **Operator Precedence**
+   ```python
+   print(2 + 3 * 4)      # 14
+   print((2 + 3) * 4)    # 20
+   print(2 ** 3 ** 2)    # 512 (right to left for **)
+   ```
+9. **Chained Comparisons**
+   ```python
+   x = 5
+   print(1 < x < 10)  # True
+   print(10 > x > 1)  # True
+   ```
+10. **Using Operators in Conditions**
     ```python
-    a = 10
-    b = 3
-    print("Addition:", a + b)
-    print("Subtraction:", a - b)
-    print("Multiplication:", a * b)
-    print("Division:", a / b)
-    print("Modulus:", a % b)
-    print("Exponentiation:", a ** b)
-    print("Floor Division:", a // b)
-    ```
-
-2.  **Comparison Operators:**
-    ```python
-    x = 5
-    y = 10
-    print("Is x equal to y?", x == y)
-    print("Is x not equal to y?", x != y)
-    print("Is x greater than y?", x > y)
-    print("Is x less than or equal to y?", x <= y)
-    ```
-
-3.  **Logical Operators:**
-    ```python
-    age = 22
-    is_student = True
-    print("Is eligible for discount?", age < 25 and is_student)
-    print("Is a senior or a student?", age > 65 or is_student)
-    print("Not a student?", not is_student)
-    ```
-
-4.  **Assignment Operators:**
-    ```python
-    count = 0
-    count += 1  # Increment by 1
-    print("Count:", count)
-
-    total = 100
-    total -= 10 # Decrement by 10
-    print("Total:", total)
-    ```
-
-5.  **Combining operators:**
-    ```python
-    # Calculate the area of a rectangle
-    length = 15
-    width = 10
-    area = length * width
-
-    # Check if the area is greater than 100
-    is_large_area = area > 100
-    print("Area:", area)
-    print("Is the area large?", is_large_area)
+    score = 85
+    if 80 <= score < 90:
+        print("B grade")
     ```
 
 ---
 
+### 🚩 Common Mistakes
+- Using `=` instead of `==` in comparisons:
+  ```python
+  # if x = 5:  # SyntaxError
+  if x == 5:
+      print("x is 5")
+  ```
+- Integer division confusion:
+  ```python
+  print(5 / 2)   # 2.5
+  print(5 // 2)  # 2
+  ```
+- Mixing types:
+  ```python
+  print("Sum:" + 5 + 3)  # TypeError
+  print("Sum:", 5 + 3)   # Correct
+  ```
+- Bitwise vs. logical confusion:
+  ```python
+  print(True & False)  # 0 (bitwise)
+  print(True and False)  # False (logical)
+  ```
+- Operator precedence errors:
+  ```python
+  print(2 + 3 * 4)      # 14, not 20
+  print((2 + 3) * 4)    # 20
+  ```
+- Using `is` for value comparison (should use `==`):
+  ```python
+  a = 1000
+  b = 1000
+  print(a is b)  # False (may be True for small ints)
+  print(a == b)  # True
+  ```
+
+---
+
+### 🎨 Stylish Quick Reference Table
+| Operator | Purpose | Example | Result |
+|----------|---------|---------|--------|
+| +        | Addition | 2 + 3   | 5      |
+| -        | Subtraction | 5 - 2 | 3      |
+| *        | Multiplication | 4 * 2 | 8   |
+| /        | Division | 8 / 2   | 4.0    |
+| //       | Floor Division | 7 // 3 | 2  |
+| %        | Modulus | 7 % 3   | 1      |
+| **       | Exponent | 2 ** 3  | 8      |
+| ==       | Equal    | 5 == 5  | True   |
+| !=       | Not Equal | 5 != 3 | True   |
+| >        | Greater  | 5 > 3   | True   |
+| <        | Less     | 3 < 5   | True   |
+| >=       | Greater/Equal | 5 >= 5 | True |
+| <=       | Less/Equal | 3 <= 5 | True   |
+| and      | Logical AND | True and False | False |
+| or       | Logical OR | True or False | True |
+| not      | Logical NOT | not True | False |
+| in       | Membership | 'a' in 'cat' | True |
+| is       | Identity | a is b | True/False |
+| &        | Bitwise AND | 5 & 3 | 1 |
+| |        | Bitwise OR | 5 | 3 | 7 |
+| ^        | Bitwise XOR | 5 ^ 3 | 6 |
+| ~        | Bitwise NOT | ~5 | -6 |
+| <<       | Left Shift | 5 << 1 | 10 |
+| >>       | Right Shift | 5 >> 1 | 2 |
+
+---
 ## <a id="day-4"></a>Day 4: Strings in Depth
 
 ### 📘 **Definition: String**
