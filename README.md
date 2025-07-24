@@ -1,227 +1,97 @@
 # 🐍 Python from Scratch: A 2-Week Learning Plan
 
-<div align="center">
+
 
 ![Python Banner](https://img.shields.io/badge/Python-Learning%20Path-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Beginner Friendly](https://img.shields.io/badge/Beginner-Friendly-green?style=for-the-badge)
 ![14 Days](https://img.shields.io/badge/Duration-14%20Days-orange?style=for-the-badge)
 ![Examples](https://img.shields.io/badge/Examples-100+-red?style=for-the-badge)
 
-</div>
+# 🚀 Your Journey to Becoming a Python Pro
 
-<div align="center" style="margin: 20px 0;">
-  <h1 style="color: #2E86AB; font-size: 2.5em; margin-bottom: 10px;">🚀 Your Journey to Becoming a Python Pro</h1>
-  <p style="font-size: 1.2em; color: #555; font-style: italic; margin-bottom: 20px;">A comprehensive, day-by-day guide to mastering Python basics with detailed explanations and examples.</p>
-  
-  <div style="display: inline-block; background: linear-gradient(45deg, #667eea 0%, #764ba2 100%); padding: 15px 30px; border-radius: 25px; color: white; font-weight: bold; margin: 10px;">
-    ✨ Interactive Learning Experience ✨
-  </div>
-</div>
+*A comprehensive, day-by-day guide to mastering Python basics with detailed explanations and examples.*
+
+**✨ Interactive Learning Experience ✨**
+
+
 
 ---
 
 ## 🎯 What You'll Learn
 
-<table align="center">
-<tr>
-<td align="center" width="200">
-<img src="https://img.icons8.com/fluency/96/000000/python.png" width="64">
-<br><strong>Python Basics</strong>
-<br>Variables, Types, Operators
-</td>
-<td align="center" width="200">
-<img src="https://img.icons8.com/fluency/96/000000/data-structure.png" width="64">
-<br><strong>Data Structures</strong>
-<br>Lists, Tuples, Sets, Dicts
-</td>
-<td align="center" width="200">
-<img src="https://img.icons8.com/fluency/96/000000/flow-chart.png" width="64">
-<br><strong>Control Flow</strong>
-<br>Conditions, Loops, Functions
-</td>
-<td align="center" width="200">
-<img src="https://img.icons8.com/fluency/96/000000/file.png" width="64">
-<br><strong>File Handling</strong>
-<br>I/O Operations, Modules
-</td>
-</tr>
-</table>
+
+
+| 🐍 **Python Basics** | 📊 **Data Structures** | 🔄 **Control Flow** | 📁 **File Handling** |
+|:---:|:---:|:---:|:---:|
+| Variables, Types, Operators | Lists, Tuples, Sets, Dicts | Conditions, Loops, Functions | I/O Operations, Modules |
+
+
 
 ---
 
 ## � Learning Schedule
 
-<div align="center">
-<table>
-<tr>
-<th colspan="4" style="background: linear-gradient(45deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%); padding: 15px; border-radius: 10px;">
-<h3 style="margin: 0; color: #333;">🗓️ Your 14-Day Python Adventure</h3>
-</th>
-</tr>
-<tr>
-<td colspan="2" align="center" style="background: #e3f2fd; padding: 10px;">
-<h4>📚 Week 1: Core Fundamentals</h4>
-</td>
-<td colspan="2" align="center" style="background: #f3e5f5; padding: 10px;">
-<h4>🚀 Week 2: Advanced Concepts</h4>
-</td>
-</tr>
-<tr>
-<td style="padding: 8px;">
-<strong>Day 1:</strong> <a href="#day-1">🐍 Introduction to Python</a>
-</td>
-<td style="padding: 8px;">
-<strong>Day 2:</strong> <a href="#day-2">📊 Variables and Data Types</a>
-</td>
-<td style="padding: 8px;">
-<strong>Day 8:</strong> <a href="#day-8">🔀 Conditional Statements</a>
-</td>
-<td style="padding: 8px;">
-<strong>Day 9:</strong> <a href="#day-9">🔄 Loops: <code>for</code></a>
-</td>
-</tr>
-<tr>
-<td style="padding: 8px;">
-<strong>Day 3:</strong> <a href="#day-3">⚡ Operators</a>
-</td>
-<td style="padding: 8px;">
-<strong>Day 4:</strong> <a href="#day-4">📝 Strings in Depth</a>
-</td>
-<td style="padding: 8px;">
-<strong>Day 10:</strong> <a href="#day-10">🔁 Loops: <code>while</code></a>
-</td>
-<td style="padding: 8px;">
-<strong>Day 11:</strong> <a href="#day-11">🎯 Functions</a>
-</td>
-</tr>
-<tr>
-<td style="padding: 8px;">
-<strong>Day 5:</strong> <a href="#day-5">📋 Data Structures: Lists</a>
-</td>
-<td style="padding: 8px;">
-<strong>Day 6:</strong> <a href="#day-6">🎭 Tuples & Sets</a>
-</td>
-<td style="padding: 8px;">
-<strong>Day 12:</strong> <a href="#day-12">🔧 Advanced Functions</a>
-</td>
-<td style="padding: 8px;">
-<strong>Day 13:</strong> <a href="#day-13">📁 File I/O</a>
-</td>
-</tr>
-<tr>
-<td style="padding: 8px;">
-<strong>Day 7:</strong> <a href="#day-7">🗂️ Dictionaries</a>
-</td>
-<td style="padding: 8px; color: #999;">
-<em>Practice Day</em>
-</td>
-<td style="padding: 8px;">
-<strong>Day 14:</strong> <a href="#day-14">📦 Modules and Libraries</a>
-</td>
-<td style="padding: 8px; color: #999;">
-<em>Project Day</em>
-</td>
-</tr>
-</table>
-</div>
 
-<div align="center" style="margin: 20px 0;">
-<strong>💡 Pro Tip:</strong> <em>Each day builds upon the previous, so follow the sequence for best results!</em>
-</div>
+
+### 🗓️ Your 14-Day Python Adventure
+
+
+
+| 📚 **Week 1: Core Fundamentals** | 🚀 **Week 2: Advanced Concepts** |
+|:---|:---|
+| **Day 1:** [🐍 Introduction to Python](#day-1) | **Day 8:** [🔀 Conditional Statements](#day-8) |
+| **Day 2:** [📊 Variables and Data Types](#day-2) | **Day 9:** [🔄 Loops: `for`](#day-9) |
+| **Day 3:** [⚡ Operators](#day-3) | **Day 10:** [🔁 Loops: `while`](#day-10) |
+| **Day 4:** [📝 Strings in Depth](#day-4) | **Day 11:** [🎯 Functions](#day-11) |
+| **Day 5:** [📋 Data Structures: Lists](#day-5) | **Day 12:** [🔧 Advanced Functions](#day-12) |
+| **Day 6:** [🎭 Tuples & Sets](#day-6) | **Day 13:** [📁 File I/O](#day-13) |
+| **Day 7:** [🗂️ Dictionaries](#day-7) | **Day 14:** [📦 Modules and Libraries](#day-14) |
+
+
+
+**💡 Pro Tip:** *Each day builds upon the previous, so follow the sequence for best results!*
+
+
 
 ---
 
-<div id="day-1" align="center">
-<h1 style="background: linear-gradient(45deg, #ff6b6b, #ee5a24); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3em; margin: 20px 0;">
-🐍 Day 1: Introduction to Python
-</h1>
-</div>
 
-<div align="center" style="margin: 20px 0;">
+
+# 🐍 Day 1: Introduction to Python
+
+
+
+
 <img src="https://img.shields.io/badge/Day-1-brightgreen?style=for-the-badge" alt="Day 1">
 <img src="https://img.shields.io/badge/Topic-Introduction-blue?style=for-the-badge" alt="Introduction">
 <img src="https://img.shields.io/badge/Level-Beginner-green?style=for-the-badge" alt="Beginner">
-</div>
 
-<table align="center" style="width: 90%; margin: 20px auto; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-<tr style="background: linear-gradient(45deg, #667eea 0%, #764ba2 100%); color: white;">
-<td style="padding: 20px; text-align: center;">
-<h3 style="margin: 0;">🐍 What is Python?</h3>
-</td>
-</tr>
-<tr style="background: #f8f9fa;">
-<td style="padding: 20px;">
-<ul style="list-style: none; padding: 0;">
-<li style="padding: 8px; margin: 5px 0; background: #e3f2fd; border-radius: 8px; border-left: 4px solid #2196F3;">
-<strong>🎯 High-Level:</strong> Abstracts away hardware details, easy to use
-</li>
-<li style="padding: 8px; margin: 5px 0; background: #e8f5e8; border-radius: 8px; border-left: 4px solid #4CAF50;">
-<strong>⚡ Interpreted:</strong> Executes code line by line, great for debugging
-</li>
-<li style="padding: 8px; margin: 5px 0; background: #fff3e0; border-radius: 8px; border-left: 4px solid #FF9800;">
-<strong>🌐 General-Purpose:</strong> Used for web, data science, automation, and more
-</li>
-<li style="padding: 8px; margin: 5px 0; background: #fce4ec; border-radius: 8px; border-left: 4px solid #E91E63;">
-<strong>💰 Open Source:</strong> Free to use and modify
-</li>
-<li style="padding: 8px; margin: 5px 0; background: #f3e5f5; border-radius: 8px; border-left: 4px solid #9C27B0;">
-<strong>🖥️ Cross-Platform:</strong> Runs on Windows, macOS, Linux
-</li>
-</ul>
-</td>
-</tr>
-</table>
 
-### 🌟 Key Features
-<div align="center">
-<table style="width: 90%; margin: 20px auto; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-<tr style="background: linear-gradient(45deg, #56ab2f, #a8e6cf); color: white; text-align: center;">
-<th style="padding: 15px; font-size: 1.1em;">🎨 Feature</th>
-<th style="padding: 15px; font-size: 1.1em;">📝 Description</th>
-</tr>
-<tr style="background: #f8f9fa;">
-<td style="padding: 12px; font-weight: bold; color: #333;">📖 **Readability**</td>
-<td style="padding: 12px;">Clean, English-like syntax</td>
-</tr>
-<tr style="background: #ffffff;">
-<td style="padding: 12px; font-weight: bold; color: #333;">🎯 **Simplicity**</td>
-<td style="padding: 12px;">Easy to learn for beginners</td>
-</tr>
-<tr style="background: #f8f9fa;">
-<td style="padding: 12px; font-weight: bold; color: #333;">📚 **Extensive Libraries**</td>
-<td style="padding: 12px;">Rich standard and third-party libraries</td>
-</tr>
-<tr style="background: #ffffff;">
-<td style="padding: 12px; font-weight: bold; color: #333;">👥 **Community**</td>
-<td style="padding: 12px;">Large, active global community</td>
-</tr>
-<tr style="background: #f8f9fa;">
-<td style="padding: 12px; font-weight: bold; color: #333;">🔧 **Versatility**</td>
-<td style="padding: 12px;">Web, AI, scripting, games, and more</td>
-</tr>
-</table>
-</div>
+### 🐍 What is Python?
+
+- **🎯 High-Level:** Abstracts away hardware details, easy to use
+- **⚡ Interpreted:** Executes code line by line, great for debugging  
+- **🌐 General-Purpose:** Used for web, data science, automation, and more
+- **💰 Open Source:** Free to use and modify
+- **🖥️ Cross-Platform:** Runs on Windows, macOS, Linux
+
+### ✨ Key Features
+
+| 🎨 **Feature** | 📝 **Description** |
+|:---|:---|
+| 📖 **Readability** | Clean, English-like syntax |
+| 🎯 **Simplicity** | Easy to learn for beginners |
+| 📚 **Extensive Libraries** | Rich standard and third-party libraries |
+| 👥 **Community** | Large, active global community |
+| 🔧 **Versatility** | Web, AI, scripting, games, and more |
 
 ### 🛠️ Abbreviations
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 15px; border-radius: 10px; margin: 15px 0;">
-<div style="color: white; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px;">
-<div style="background: rgba(255,255,255,0.1); padding: 10px; border-radius: 5px;">
-<strong>💻 IDE:</strong> Integrated Development Environment (VS Code, PyCharm)
-</div>
-<div style="background: rgba(255,255,255,0.1); padding: 10px; border-radius: 5px;">
-<strong>📋 PEP:</strong> Python Enhancement Proposal (PEP 8 = style guide)
-</div>
-<div style="background: rgba(255,255,255,0.1); padding: 10px; border-radius: 5px;">
-<strong>🔄 REPL:</strong> Read-Eval-Print Loop (interactive shell)
-</div>
-<div style="background: rgba(255,255,255,0.1); padding: 10px; border-radius: 5px;">
-<strong>⌨️ CLI:</strong> Command Line Interface
-</div>
-<div style="background: rgba(255,255,255,0.1); padding: 10px; border-radius: 5px;">
-<strong>🔧 Interpreter:</strong> Program that executes Python code
-</div>
-</div>
-</div>
+
+- **💻 IDE:** Integrated Development Environment (VS Code, PyCharm)
+- **📋 PEP:** Python Enhancement Proposal (PEP 8 = style guide)
+- **🔄 REPL:** Read-Eval-Print Loop (interactive shell)
+- **⌨️ CLI:** Command Line Interface
+- **🔧 Interpreter:** Program that executes Python code
 
 
 ### 🗝️ Python Keywords (Reserved Words)
@@ -493,43 +363,30 @@ python my_script.py
 
 ---
 
-<div id="day-2" align="center">
-<h1 style="background: linear-gradient(45deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3em; margin: 20px 0;">
-📊 Day 2: Variables and Data Types
-</h1>
-</div>
 
-<div align="center" style="margin: 20px 0;">
+
+# 📊 Day 2: Variables and Data Types
+
+
+
+
 <img src="https://img.shields.io/badge/Day-2-brightgreen?style=for-the-badge" alt="Day 2">
 <img src="https://img.shields.io/badge/Topic-Variables%20%26%20Data%20Types-blue?style=for-the-badge" alt="Variables">
 <img src="https://img.shields.io/badge/Level-Beginner-green?style=for-the-badge" alt="Beginner">
-</div>
 
-<table align="center" style="width: 90%; margin: 20px auto; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-<tr style="background: linear-gradient(45deg, #43cea2 0%, #185a9d 100%); color: white;">
-<td style="padding: 20px; text-align: center;">
-<h3 style="margin: 0;">🔑 Variables: The Building Blocks</h3>
-</td>
-</tr>
-<tr style="background: #f8f9fa;">
-<td style="padding: 20px;">
-<ul style="list-style: none; padding: 0;">
-<li style="padding: 8px; margin: 5px 0; background: #e3f2fd; border-radius: 8px; border-left: 4px solid #2196F3;">
-<strong>📦 Variable:</strong> A named location in memory to store data
-</li>
-<li style="padding: 8px; margin: 5px 0; background: #e8f5e8; border-radius: 8px; border-left: 4px solid #4CAF50;">
-<strong>➡️ Assignment:</strong> Use <code>=</code> to assign a value
-</li>
-<li style="padding: 8px; margin: 5px 0; background: #fff3e0; border-radius: 8px; border-left: 4px solid #FF9800;">
-<strong>🔄 Dynamic Typing:</strong> Python variables can change type
-</li>
-<li style="padding: 8px; margin: 5px 0; background: #fce4ec; border-radius: 8px; border-left: 4px solid #E91E63;">
-<strong>🔠 Case Sensitive:</strong> <code>score</code> and <code>Score</code> are different
-</li>
-</ul>
-</td>
-</tr>
-</table>
+
+
+
+
+### 🔑 Variables: The Building Blocks
+
+- **📦 Variable:** A named location in memory to store data
+- **➡️ Assignment:** Use `=` to assign a value
+- **🔄 Dynamic Typing:** Python variables can change type
+- **🔠 Case Sensitive:** `score` and `Score` are different
+
+
+
 
 ### 📝 Naming Conventions (PEP 8)
 - Use **snake_case**: `user_name`, `total_score`
@@ -750,72 +607,39 @@ print("Your age as a string:", user_age)
 
 ---
 
-<div id="day-3" align="center">
-<h1 style="background: linear-gradient(45deg, #f857a6, #ff5858); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3em; margin: 20px 0;">
-⚡ Day 3: Operators
-</h1>
-</div>
 
-<div align="center" style="margin: 20px 0;">
+
+# ⚡ Day 3: Operators
+
+
+
+
 <img src="https://img.shields.io/badge/Day-3-brightgreen?style=for-the-badge" alt="Day 3">
 <img src="https://img.shields.io/badge/Topic-Operators-blue?style=for-the-badge" alt="Operators">
 <img src="https://img.shields.io/badge/Level-Beginner-green?style=for-the-badge" alt="Beginner">
-</div>
 
-<table align="center" style="width: 90%; margin: 20px auto; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-<tr style="background: linear-gradient(45deg, #f857a6 0%, #ff5858 100%); color: white;">
-<td style="padding: 20px; text-align: center;">
-<h3 style="margin: 0;">🔢 Operators in Python</h3>
-<p style="margin: 5px 0;">Operators are special symbols that perform operations on variables and values. They are the backbone of calculations, logic, and data manipulation in Python.</p>
-</td>
-</tr>
-</table>
+
+
+
+
+### 🔢 Operators in Python
+
+Operators are special symbols that perform operations on variables and values. They are the backbone of calculations, logic, and data manipulation in Python.
 
 ### 🧮 Types of Operators
-<div align="center">
-<table style="width: 95%; margin: 20px auto; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-<tr style="background: linear-gradient(45deg, #667eea, #764ba2); color: white; text-align: center;">
-<th style="padding: 15px; font-size: 1.1em;">🎯 Type</th>
-<th style="padding: 15px; font-size: 1.1em;">📝 Description</th>
-<th style="padding: 15px; font-size: 1.1em;">🔧 Examples</th>
-</tr>
-<tr style="background: #f8f9fa;">
-<td style="padding: 12px; font-weight: bold; color: #333;">🧮 Arithmetic</td>
-<td style="padding: 12px;">Math operations</td>
-<td style="padding: 12px;"><code>+, -, *, /, %, **, //</code></td>
-</tr>
-<tr style="background: #ffffff;">
-<td style="padding: 12px; font-weight: bold; color: #333;">⚖️ Comparison</td>
-<td style="padding: 12px;">Compare values</td>
-<td style="padding: 12px;"><code>==, !=, >, <, >=, <=</code></td>
-</tr>
-<tr style="background: #f8f9fa;">
-<td style="padding: 12px; font-weight: bold; color: #333;">🧠 Logical</td>
-<td style="padding: 12px;">Boolean logic</td>
-<td style="padding: 12px;"><code>and, or, not</code></td>
-</tr>
-<tr style="background: #ffffff;">
-<td style="padding: 12px; font-weight: bold; color: #333;">↔️ Assignment</td>
-<td style="padding: 12px;">Assign values</td>
-<td style="padding: 12px;"><code>=, +=, -=, *=, /=, %=, //=, **=</code></td>
-</tr>
-<tr style="background: #f8f9fa;">
-<td style="padding: 12px; font-weight: bold; color: #333;">🧩 Bitwise</td>
-<td style="padding: 12px;">Bit-level operations</td>
-<td style="padding: 12px;"><code>&, |, ^, ~, <<, >></code></td>
-</tr>
-<tr style="background: #ffffff;">
-<td style="padding: 12px; font-weight: bold; color: #333;">🔍 Membership</td>
-<td style="padding: 12px;">Test for membership</td>
-<td style="padding: 12px;"><code>in, not in</code></td>
-</tr>
-<tr style="background: #f8f9fa;">
-<td style="padding: 12px; font-weight: bold; color: #333;">🏷️ Identity</td>
-<td style="padding: 12px;">Test for same object</td>
-<td style="padding: 12px;"><code>is, is not</code></td>
-</tr>
-</table>
-</div>
+
+| 🎯 **Type** | 📝 **Description** | 🔧 **Examples** |
+|:---|:---|:---|
+| 🧮 **Arithmetic** | Math operations | `+, -, *, /, %, **, //` |
+| ⚖️ **Comparison** | Compare values | `==, !=, >, <, >=, <=` |
+| 🧠 **Logical** | Boolean logic | `and, or, not` |
+| ↔️ **Assignment** | Assign values | `=, +=, -=, *=, /=, %=, //=, **=` |
+| 🧩 **Bitwise** | Bit-level operations | `&, |, ^, ~, <<, >>` |
+| 🔍 **Membership** | Test for membership | `in, not in` |
+| 🏷️ **Identity** | Test for same object | `is, is not` |
+
+
+
 
 ---
 
@@ -892,112 +716,44 @@ Use parentheses to control precedence.
 
 ### 🏅 Full Python Operator Precedence Table
 
-<div align="center" style="margin: 20px 0;">
-<div style="background: linear-gradient(45deg, #ff9966 0%, #ff5e62 100%); padding: 15px; border-radius: 10px; color: white; font-weight: bold; text-align: center;">
-📊 Operators are evaluated in the following order (highest to lowest):
-</div>
-</div>
+> **📊 Operators are evaluated in the following order (highest to lowest):**
 
-<div align="center">
-<table style="width: 95%; margin: 20px auto; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-<tr style="background: linear-gradient(45deg, #ff9966, #ff5e62); color: white; text-align: center;">
-<th style="padding: 15px; font-size: 1.1em;">🏆 Precedence</th>
-<th style="padding: 15px; font-size: 1.1em;">🔧 Operator(s)</th>
-<th style="padding: 15px; font-size: 1.1em;">📝 Description</th>
-</tr>
-<tr style="background: #f8f9fa;">
-<td style="padding: 10px; text-align: center; font-weight: bold; color: #d32f2f;">1</td>
-<td style="padding: 10px; text-align: center;"><code>()</code></td>
-<td style="padding: 10px;">Parentheses (grouping)</td>
-</tr>
-<tr style="background: #ffffff;">
-<td style="padding: 10px; text-align: center; font-weight: bold; color: #d32f2f;">2</td>
-<td style="padding: 10px; text-align: center;"><code>x[index]</code>, <code>x.attribute</code>, <code>x(...)</code></td>
-<td style="padding: 10px;">Indexing, slicing, attribute reference, function call</td>
-</tr>
-<tr style="background: #f8f9fa;">
-<td style="padding: 10px; text-align: center; font-weight: bold; color: #d32f2f;">3</td>
-<td style="padding: 10px; text-align: center;"><code>**</code></td>
-<td style="padding: 10px;">Exponentiation</td>
-</tr>
-<tr style="background: #ffffff;">
-<td style="padding: 10px; text-align: center; font-weight: bold; color: #f57c00;">4</td>
-<td style="padding: 10px; text-align: center;"><code>+x</code>, <code>-x</code>, <code>~x</code></td>
-<td style="padding: 10px;">Unary plus, minus, bitwise NOT</td>
-</tr>
-<tr style="background: #f8f9fa;">
-<td style="padding: 10px; text-align: center; font-weight: bold; color: #f57c00;">5</td>
-<td style="padding: 10px; text-align: center;"><code>*</code>, <code>/</code>, <code>//</code>, <code>%</code></td>
-<td style="padding: 10px;">Multiplication, division, floor division, modulus</td>
-</tr>
-<tr style="background: #ffffff;">
-<td style="padding: 10px; text-align: center; font-weight: bold; color: #388e3c;">6</td>
-<td style="padding: 10px; text-align: center;"><code>+</code>, <code>-</code></td>
-<td style="padding: 10px;">Addition, subtraction</td>
-</tr>
-<tr style="background: #f8f9fa;">
-<td style="padding: 10px; text-align: center; font-weight: bold; color: #388e3c;">7</td>
-<td style="padding: 10px; text-align: center;"><code><<</code>, <code>>></code></td>
-<td style="padding: 10px;">Bitwise shift left, right</td>
-</tr>
-<tr style="background: #ffffff;">
-<td style="padding: 10px; text-align: center; font-weight: bold; color: #1976d2;">8</td>
-<td style="padding: 10px; text-align: center;"><code>&</code></td>
-<td style="padding: 10px;">Bitwise AND</td>
-</tr>
-<tr style="background: #f8f9fa;">
-<td style="padding: 10px; text-align: center; font-weight: bold; color: #1976d2;">9</td>
-<td style="padding: 10px; text-align: center;"><code>^</code></td>
-<td style="padding: 10px;">Bitwise XOR</td>
-</tr>
-<tr style="background: #ffffff;">
-<td style="padding: 10px; text-align: center; font-weight: bold; color: #1976d2;">10</td>
-<td style="padding: 10px; text-align: center;"><code>\|</code></td>
-<td style="padding: 10px;">Bitwise OR</td>
-</tr>
-<tr style="background: #f8f9fa;">
-<td style="padding: 10px; text-align: center; font-weight: bold; color: #7b1fa2;">11</td>
-<td style="padding: 10px; text-align: center;"><code>in</code>, <code>not in</code>, <code>is</code>, <code>is not</code>, <code>==</code>, <code>!=</code>, <code><</code>, <code>></code></td>
-<td style="padding: 10px;">Comparisons, membership, identity</td>
-</tr>
-<tr style="background: #ffffff;">
-<td style="padding: 10px; text-align: center; font-weight: bold; color: #7b1fa2;">12</td>
-<td style="padding: 10px; text-align: center;"><code>not</code></td>
-<td style="padding: 10px;">Logical NOT</td>
-</tr>
-<tr style="background: #f8f9fa;">
-<td style="padding: 10px; text-align: center; font-weight: bold; color: #7b1fa2;">13</td>
-<td style="padding: 10px; text-align: center;"><code>and</code></td>
-<td style="padding: 10px;">Logical AND</td>
-</tr>
-<tr style="background: #ffffff;">
-<td style="padding: 10px; text-align: center; font-weight: bold; color: #7b1fa2;">14</td>
-<td style="padding: 10px; text-align: center;"><code>or</code></td>
-<td style="padding: 10px;">Logical OR</td>
-</tr>
-<tr style="background: #f8f9fa;">
-<td style="padding: 10px; text-align: center; font-weight: bold; color: #455a64;">15</td>
-<td style="padding: 10px; text-align: center;"><code>if - else</code></td>
-<td style="padding: 10px;">Conditional expression</td>
-</tr>
-<tr style="background: #ffffff;">
-<td style="padding: 10px; text-align: center; font-weight: bold; color: #455a64;">16</td>
-<td style="padding: 10px; text-align: center;"><code>lambda</code></td>
-<td style="padding: 10px;">Lambda expression</td>
-</tr>
-<tr style="background: #f8f9fa;">
-<td style="padding: 10px; text-align: center; font-weight: bold; color: #455a64;">17</td>
-<td style="padding: 10px; text-align: center;"><code>=</code>, <code>+=</code>, <code>-=</code>, etc.</td>
-<td style="padding: 10px;">Assignment</td>
-</tr>
-</table>
-</div>
+| 🏆 **Precedence** | 🔧 **Operator(s)** | 📝 **Description** |
+|:---:|:---|:---|
+| **1** | `()` | Parentheses (grouping) |
+| **2** | `x[index]`, `x.attribute`, `x(...)` | Indexing, slicing, attribute reference, function call |
+| **3** | `**` | Exponentiation |
+| **4** | `+x`, `-x`, `~x` | Unary plus, minus, bitwise NOT |
+| **5** | `*`, `/`, `//`, `%` | Multiplication, division, floor division, modulus |
+| **6** | `+`, `-` | Addition, subtraction |
+| **7** | `<<`, `>>` | Bitwise shift left, right |
+| **8** | `&` | Bitwise AND |
+| **9** | `^` | Bitwise XOR |
+| **10** | `\|` | Bitwise OR |
+| **11** | `in`, `not in`, `is`, `is not`, `==`, `!=`, `<`, `>` | Comparisons, membership, identity |
+| **12** | `not` | Logical NOT |
+| **13** | `and` | Logical AND |
+| **14** | `or` | Logical OR |
+| **15** | `if - else` | Conditional expression |
+| **16** | `lambda` | Lambda expression |
+| **17** | `=`, `+=`, `-=`, etc. | Assignment |">
+16
+lambda
+Lambda expression
 
-<div align="center" style="margin: 20px 0;">
-<div style="background: linear-gradient(45deg, #4CAF50, #45a049); padding: 12px 25px; border-radius: 25px; color: white; font-weight: bold; display: inline-block;">
-💡 <strong>Pro Tip:</strong> When in doubt, use parentheses <code>()</code> to make your code clear and avoid precedence mistakes!
-</div>
-</div>
+
+17
+=, +=, -=, etc.
+Assignment
+
+
+
+
+
+
+💡 **Pro Tip:** When in doubt, use parentheses `()` to make your code clear and avoid precedence mistakes!
+
+
 
 ---
 
@@ -1887,44 +1643,37 @@ A **library** is a collection of related modules. Python has a rich **Standard L
     print("This example shows how you would structure your own modules.")
     ```
 
-<div align="center" style="margin: 40px 0;">
-<div style="background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%); padding: 30px; border-radius: 20px; color: white; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-<h2 style="margin: 0 0 15px 0; font-size: 2em;">🎉 Congratulations! 🎉</h2>
-<p style="font-size: 1.3em; margin: 0; font-weight: 300;">You've completed the 2-week Python basics course!</p>
-<div style="margin: 20px 0; font-size: 1.1em;">
-✨ <em>You now have a strong foundation to build upon. Keep practicing, building projects, and exploring new libraries!</em> ✨
-</div>
-<div style="margin-top: 20px;">
-<img src="https://img.shields.io/badge/Status-Course%20Complete-success?style=for-the-badge&logo=python" alt="Course Complete">
-<img src="https://img.shields.io/badge/Next%20Step-Build%20Projects-orange?style=for-the-badge&logo=rocket" alt="Build Projects">
-</div>
-</div>
-</div>
+
+
+## 🎉 Congratulations! 🎉
+
+**You've completed the 2-week Python basics course!**
+
+✨ *You now have a strong foundation to build upon. Keep practicing, building projects, and exploring new libraries!* ✨
+
+![Course Complete](https://img.shields.io/badge/Status-Course%20Complete-success?style=for-the-badge&logo=python)
+![Build Projects](https://img.shields.io/badge/Next%20Step-Build%20Projects-orange?style=for-the-badge&logo=rocket)
 
 ---
 
-<div align="center" style="margin: 30px 0;">
-<h3>🚀 What's Next?</h3>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0;">
-<div style="background: #e3f2fd; padding: 15px; border-radius: 10px; border-left: 4px solid #2196F3;">
-<strong>🔧 Build Projects</strong><br>
-Create real applications
-</div>
-<div style="background: #e8f5e8; padding: 15px; border-radius: 10px; border-left: 4px solid #4CAF50;">
-<strong>📚 Learn Frameworks</strong><br>
-Django, Flask, FastAPI
-</div>
-<div style="background: #fff3e0; padding: 15px; border-radius: 10px; border-left: 4px solid #FF9800;">
-<strong>🔬 Data Science</strong><br>
-NumPy, Pandas, Matplotlib
-</div>
-<div style="background: #fce4ec; padding: 15px; border-radius: 10px; border-left: 4px solid #E91E63;">
-<strong>🤖 AI/ML</strong><br>
-TensorFlow, PyTorch
-</div>
-</div>
-</div>
+### 🚀 What's Next?
 
-<div align="center" style="margin: 20px 0; font-size: 0.9em; color: #666;">
-Made with ❤️ for Python learners everywhere
+- **🔧 Build Projects** - Create real applications
+- **📚 Learn Frameworks** - Django, Flask, FastAPI  
+- **🔬 Data Science** - NumPy, Pandas, Matplotlib
+- **🤖 AI/ML** - TensorFlow, PyTorch
+
+
+
+
+
+---
+
+<div align="center">
+
+**Made with ❤️ for Python learners everywhere**
+
+![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red.svg?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
 </div>
