@@ -31,159 +31,416 @@
 
 ## <a id="day-1"></a>Day 1: Introduction to Python
 
-### 📘 **Definition: What is Python?**
-Python is a **high-level, interpreted, general-purpose programming language**.
-- **High-Level:** It abstracts away complex details of the computer's hardware.
-- **Interpreted:** It executes code line by line, which makes debugging easier.
-- **General-Purpose:** It can be used to create a wide variety of applications.
+---
 
-### 🌟 **Key Characteristics**
-- **Readability:** Python's syntax is clean and easy to read, almost like plain English.
-- **Simplicity:** It's relatively easy to learn, making it ideal for beginners.
-- **Large Standard Library:** Comes with a rich library of pre-built modules and functions.
-- **Cross-Platform:** Python code can run on Windows, macOS, and Linux without modification.
+## <a id="day-1"></a>Day 1: Introduction to Python
 
-### 🛠️ **Abbreviations**
-- **IDE (Integrated Development Environment):** A software application that provides comprehensive facilities to computer programmers for software development. Examples: VS Code, PyCharm, Sublime Text.
-- **PEP (Python Enhancement Proposal):** A design document providing information to the Python community, or describing a new feature for Python or its processes or environment. `PEP 8` is the style guide for Python code.
+<div style="background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%); padding: 16px; border-radius: 8px; color: #222; margin-bottom: 20px;">
+  <h3>🐍 What is Python?</h3>
+  <ul>
+    <li><b>High-Level:</b> Abstracts away hardware details, easy to use.</li>
+    <li><b>Interpreted:</b> Executes code line by line, great for debugging.</li>
+    <li><b>General-Purpose:</b> Used for web, data science, automation, and more.</li>
+    <li><b>Open Source:</b> Free to use and modify.</li>
+    <li><b>Cross-Platform:</b> Runs on Windows, macOS, Linux.</li>
+  </ul>
+</div>
 
-### 🐍 **Your First Python Program: Hello, World!**
-This is the traditional first program for learning any new language. It's a simple program that outputs `Hello, World!` to the screen.
+### 🌟 Key Features
+| Feature | Description |
+|---------|-------------|
+| <b>Readability</b> | Clean, English-like syntax |
+| <b>Simplicity</b> | Easy to learn for beginners |
+| <b>Extensive Libraries</b> | Rich standard and third-party libraries |
+| <b>Community</b> | Large, active global community |
+| <b>Versatility</b> | Web, AI, scripting, games, and more |
 
+### 🛠️ Abbreviations
+- **IDE:** Integrated Development Environment (VS Code, PyCharm)
+- **PEP:** Python Enhancement Proposal (PEP 8 = style guide)
+- **REPL:** Read-Eval-Print Loop (interactive shell)
+- **CLI:** Command Line Interface
+- **Interpreter:** Program that executes Python code
+
+### 🐍 Your First Python Program
 ```python
-# This is a comment. It is ignored by the interpreter.
+# This is a comment. It is ignored by Python.
+print("Hello, World!")  # Output: Hello, World!
+```
+
+### ✍️ Comments
+
+---
+
+### 🖨️ Printing in Python
+
+Python's `print()` function is versatile and supports many features:
+
+#### 1. Basic Printing
+```python
 print("Hello, World!")
 ```
 
-### ✍️ **Comments**
-Comments are used to explain code. They are ignored by the Python interpreter.
-- **Single-line comments:** Start with a `#`.
-- **Multi-line comments:** Enclosed in triple quotes (`"""..."""` or `'''...'''`).
+#### 2. Printing Multiple Items
+```python
+print("A", "B", "C")  # Output: A B C
+```
 
-### 📜 **Examples**
+#### 3. Custom Separator (`sep`)
+```python
+print("A", "B", "C", sep="-")  # Output: A-B-C
+```
 
-1.  **Printing a simple message:**
+#### 4. Custom End (`end`)
+```python
+print("Hello", end=" ")
+print("World!")  # Output: Hello World!
+```
+
+#### 5. Printing Variables and Expressions
+```python
+name = "Alice"
+age = 25
+print("Name:", name, "Age:", age)
+print("Sum:", 10 + 5)
+```
+
+#### 6. Formatted Strings (f-strings)
+```python
+score = 99
+print(f"Your score is {score}!")
+```
+
+#### 7. Old Style Formatting (`%` operator)
+```python
+pi = 3.14159
+print("Value of pi: %.2f" % pi)  # Output: Value of pi: 3.14
+```
+
+#### 8. String `.format()` Method
+```python
+user = "Bob"
+points = 100
+print("User: {} | Points: {}".format(user, points))
+```
+
+#### 9. Printing Escape Characters
+```python
+print("She said, \"Python is awesome!\"")
+print('It\'s easy to learn.')
+print("Line1\nLine2")  # Newline
+print("Tab\tSeparated")  # Tab
+```
+
+#### 10. Printing Unicode and Emojis
+```python
+print("Smile: \u263A")  # ☺
+print("Rocket: 🚀")
+```
+
+#### 11. Printing Raw Strings
+```python
+print(r"C:\\Users\\Alice")  # Output: C:\Users\Alice
+```
+
+#### 12. Printing with Input
+```python
+user_input = input("Enter something: ")
+print("You entered:", user_input)
+```
+
+#### 13. Printing Without Newline
+```python
+for i in range(3):
+    print(i, end=", ")
+# Output: 0, 1, 2, 
+```
+
+#### 14. Printing Lists and Dictionaries
+```python
+fruits = ["apple", "banana", "cherry"]
+print(fruits)
+person = {"name": "Alice", "age": 25}
+print(person)
+```
+
+#### 15. Printing with File Output
+```python
+with open("output.txt", "w") as f:
+    print("Hello, file!", file=f)
+```
+
+---
+
+### 📝 Comments in Python
+
+#### 1. Single-Line Comments
+```python
+# This is a single-line comment
+print("Hello")  # This is an inline comment
+```
+
+#### 2. Multi-Line Comments
+```python
+"""
+This is a multi-line comment.
+It can span several lines.
+Useful for documentation or disabling code blocks.
+"""
+print("Multi-line comment above!")
+```
+
+#### 3. Docstrings (Documentation Strings)
+Used for documenting modules, classes, functions.
+```python
+def greet():
+    """This function prints a greeting."""
+    print("Hello!")
+```
+
+#### 4. Commenting Out Code
+```python
+# print("This line is disabled and won't run.")
+```
+
+#### 5. Inline Comments
+```python
+total = 10 + 5  # Add two numbers
+```
+
+#### 6. Best Practices
+- Keep comments concise and relevant.
+- Use docstrings for functions/classes.
+- Avoid obvious comments (e.g., `# increment x by 1` when code is `x += 1`).
+
+---
+
+### 💡 Python File Extensions
+- `.py` : Standard Python script
+- `.pyw`: Python script (no console window on Windows)
+
+### 🔥 How Python Runs Code
+1. You write code in a `.py` file.
+2. The Python interpreter reads and executes each line.
+3. Errors are shown immediately (great for learning!).
+
+### 🖥️ Running Python
+```bash
+# Run interactively
+python
+# Run a script
+python my_script.py
+```
+
+### 📜 Examples
+1. **Print a message**
+   ```python
+   print("Welcome to Python!")
+   ```
+2. **Single-line comment**
+   ```python
+   # This prints a number
+   print(42)
+   ```
+3. **Multi-line comment**
+   ```python
+   """
+   This is a multi-line comment.
+   It can span several lines.
+   """
+   print("Multi-line comment above!")
+   ```
+4. **Print multiple lines**
+   ```python
+   print("Line 1")
+   print("Line 2")
+   print("Line 3")
+   ```
+5. **Simple math and comments**
+   ```python
+   # Add two numbers
+   a = 5
+   b = 7
+   result = a + b
+   print("Sum:", result)
+   ```
+6. **Using the interactive shell (REPL)**
+   ```python
+   >>> print("Hello from REPL!")
+   Hello from REPL!
+   ```
+7. **Error example (shows how Python helps you learn)**
+   ```python
+   print(unknown_var)  # NameError: name 'unknown_var' is not defined
+   ```
+8. **Using escape characters**
+   ```python
+   print("She said, \"Python is awesome!\"")
+   print('It\'s easy to learn.')
+   ```
+9. **Printing with end and sep**
+   ```python
+   print("A", "B", "C", sep="-")  # Output: A-B-C
+   print("Hello", end=" ")
+   print("World!")  # Output: Hello World!
+   ```
+10. **Input from user**
     ```python
-    print("Welcome to your Python journey!")
+    name = input("Enter your name: ")
+    print("Hello,", name)
     ```
 
-2.  **Using a single-line comment:**
-    ```python
-    # This line of code prints a number.
-    print(123)
-    ```
-
-3.  **Using a multi-line comment:**
-    ```python
-    """
-    This is a multi-line comment.
-    It can span across multiple lines.
-    This program calculates the sum of two numbers.
-    """
-    print(10 + 5)
-    ```
-
-4.  **Printing multiple lines:**
-    ```python
-    print("Line 1")
-    print("Line 2")
-    print("Line 3")
-    ```
-
-5.  **A program with comments explaining the logic:**
-    ```python
-    # Define two numbers
-    num1 = 10
-    num2 = 20
-
-    # Calculate the sum
-    sum_result = num1 + num2
-
-    # Print the result
-    print("The sum is:", sum_result)
-    ```
+---
 
 ---
 
 ## <a id="day-2"></a>Day 2: Variables and Data Types
 
-### 📘 **Definition: Variables**
-A **variable** is a container for storing a data value. In Python, you create a variable the moment you first assign a value to it.
+---
 
-###  conventions **Naming Conventions (PEP 8)**
-- Use `snake_case` for variable names (e.g., `my_variable`, `user_name`).
-- Variable names must start with a letter or an underscore.
-- They cannot start with a number.
-- They can only contain alpha-numeric characters and underscores (A-z, 0-9, and _).
-- Variable names are case-sensitive (`age`, `Age`, and `AGE` are three different variables).
+## <a id="day-2"></a>Day 2: Variables and Data Types
 
-### 📘 **Definition: Data Types**
-A **data type** is a classification that specifies which type of value a variable has and what type of mathematical, relational, or logical operations can be applied to it without causing an error.
+<div style="background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%); padding: 16px; border-radius: 8px; color: #fff; margin-bottom: 20px;">
+  <h3>🔑 Variables: The Building Blocks</h3>
+  <ul>
+    <li><b>Variable:</b> A named location in memory to store data.</li>
+    <li><b>Assignment:</b> Use <code>=</code> to assign a value.</li>
+    <li><b>Dynamic Typing:</b> Python variables can change type.</li>
+    <li><b>Case Sensitive:</b> <code>score</code> and <code>Score</code> are different.</li>
+  </ul>
+</div>
 
-### 📊 **Core Data Types**
-- **Integer (`int`):** Whole numbers, positive or negative, without decimals.
-- **Float (`float`):** Numbers, positive or negative, containing one or more decimals.
-- **String (`str`):** A sequence of characters, enclosed in single, double, or triple quotes.
-- **Boolean (`bool`):** Represents one of two values: `True` or `False`.
+### 📝 Naming Conventions (PEP 8)
+- Use <b>snake_case</b>: <code>user_name</code>, <code>total_score</code>
+- Start with a letter or underscore (_)
+- Cannot start with a number
+- Only letters, numbers, underscores
+- Case-sensitive
 
-### 🔄 **Type Casting**
-Type casting is the process of converting a variable from one data type to another.
+### 🛠️ Abbreviations
+- <b>int</b>: Integer
+- <b>float</b>: Floating-point number
+- <b>str</b>: String
+- <b>bool</b>: Boolean
+- <b>type()</b>: Returns the type of a variable
 
-### 📜 **Examples**
+### 📊 Data Types in Python
+| Type | Example | Description |
+|------|---------|-------------|
+| <b>int</b> | <code>42</code> | Whole numbers |
+| <b>float</b> | <code>3.14</code> | Decimal numbers |
+| <b>str</b> | <code>"Hello"</code> | Text data |
+| <b>bool</b> | <code>True</code> | True/False |
 
-1.  **Creating variables of different data types:**
+### 🔄 Type Conversion (Casting)
+- <code>int()</code>: Convert to integer
+- <code>float()</code>: Convert to float
+- <code>str()</code>: Convert to string
+- <code>bool()</code>: Convert to boolean
+
+### 💡 Special Types
+- <b>NoneType</b>: <code>None</code> means no value
+- <b>Complex</b>: <code>3+4j</code> (rarely used in basics)
+
+### 📜 Examples
+1. **Declaring variables of all types**
+   ```python
+   age = 21           # int
+   price = 19.99      # float
+   name = "Alice"     # str
+   is_student = True  # bool
+   print(type(age), type(price), type(name), type(is_student))
+   ```
+2. **Variable naming rules**
+   ```python
+   _private_var = "hidden"
+   user1 = "Bob"
+   # 1user = "error"  # Invalid: cannot start with number
+   print(_private_var, user1)
+   ```
+3. **Dynamic typing**
+   ```python
+   x = 10
+   print(type(x))  # int
+   x = "ten"
+   print(type(x))  # str
+   ```
+4. **Type conversion**
+   ```python
+   num = "100"
+   num_int = int(num)
+   num_float = float(num)
+   print(num_int, num_float)
+   print(type(num_int), type(num_float))
+   ```
+5. **Boolean conversion**
+   ```python
+   print(bool(0))      # False
+   print(bool(1))      # True
+   print(bool(""))     # False
+   print(bool("abc"))  # True
+   ```
+6. **NoneType usage**
+   ```python
+   value = None
+   print(value, type(value))
+   ```
+7. **Multiple assignment**
+   ```python
+   a, b, c = 1, 2, 3
+   print(a, b, c)
+   ```
+8. **Swapping variables**
+   ```python
+   x = 5
+   y = 10
+   x, y = y, x
+   print(x, y)  # 10 5
+   ```
+9. **String concatenation and formatting**
+   ```python
+   first = "Hello"
+   second = "World"
+   print(first + " " + second)
+   print(f"{first}, {second}!")
+   ```
+10. **Input and type conversion**
     ```python
-    # Integer
-    age = 25
-    print("Age:", age, "Type:", type(age))
-
-    # Float
-    price = 19.99
-    print("Price:", price, "Type:", type(price))
-
-    # String
-    name = "John Doe"
-    print("Name:", name, "Type:", type(name))
-
-    # Boolean
-    is_student = True
-    print("Is Student:", is_student, "Type:", type(is_student))
+    age = input("Enter your age: ")
+    age = int(age)
+    print("You are", age, "years old.")
     ```
 
-2.  **Using snake_case for variable names:**
-    ```python
-    first_name = "Alice"
-    last_name = "Smith"
-    user_age = 30
-    is_active_user = False
-    print(first_name, last_name, user_age, is_active_user)
-    ```
+### 🧩 Quick Reference Table
+| Syntax | Meaning |
+|--------|---------|
+| <code>=</code> | Assignment |
+| <code>type(x)</code> | Get type |
+| <code>is</code> | Identity check |
+| <code>==</code> | Equality check |
+| <code>input()</code> | User input |
 
-3.  **Type casting from `int` to `str`:**
-    ```python
-    age = 30
-    age_as_string = str(age)
-    print("My age is " + age_as_string) # You can't concatenate string with int directly
-    ```
+### 🚩 Common Mistakes
+- Forgetting quotes for strings: <code>name = Alice</code> (error)
+- Mixing types: <code>print("Age: " + 21)</code> (error, must convert 21 to string)
+- Using reserved words as variable names: <code>class = "Math"</code> (error)
 
-4.  **Type casting from `float` to `int`:**
-    ```python
-    price = 29.99
-    price_as_int = int(price) # The decimal part is truncated
-    print("Price as integer:", price_as_int)
-    ```
+### 🎨 Stylish Example: All-in-One
+```python
+# Declare variables
+user_name = input("Enter your name: ")
+user_age = int(input("Enter your age: "))
+is_new_user = True
 
-5.  **Type casting from `str` to `int` and `float`:**
-    ```python
-    num_str1 = "100"
-    num_str2 = "50.75"
+# Print with formatting
+print(f"Welcome, {user_name}! Age: {user_age}. New user? {is_new_user}")
 
-    num_int = int(num_str1)
-    num_float = float(num_str2)
+# Change type
+user_age = str(user_age)
+print("Your age as a string:", user_age)
+```
 
-    print("String to int:", num_int)
-    print("String to float:", num_float)
-    ```
+---
 
 ---
 
