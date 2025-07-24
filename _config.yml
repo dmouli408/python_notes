@@ -1,0 +1,45 @@
+theme: minima
+title: "Python from Scratch: A 2-Week Learning Plan"
+description: "A comprehensive, day-by-day guide to mastering Python basics with detailed explanations and examples."
+author: "Python Learning Guide"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - index.html
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Site settings
+lang: en
+timezone: UTC
+
+# SEO settings
+url: "https://yourusername.github.io"
+baseurl: "/repository-name"
+
+# Social media
+github_username: yourusername
+
+# Build settings
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README_python.md

@@ -1,0 +1,377 @@
+--- layout: default title: Python Learning Guide ---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <style>
+        /* Enhanced GitHub Pages Styling */
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #24292f;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .main-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        .hero-section h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .hero-section p {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .badge-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        
+        .hero-badge {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+        
+        .hero-badge:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .content-section {
+            padding: 40px;
+        }
+        
+        .quick-nav {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .nav-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border-left: 4px solid #0969da;
+        }
+        
+        .nav-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .nav-card h3 {
+            color: #0969da;
+            margin-bottom: 15px;
+        }
+        
+        .day-links {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .day-links li {
+            margin: 8px 0;
+        }
+        
+        .day-links a {
+            color: #24292f;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 6px;
+            display: block;
+            transition: all 0.3s ease;
+        }
+        
+        .day-links a:hover {
+            background: #e7f3ff;
+            transform: translateX(5px);
+        }
+        
+        .features-showcase {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+        
+        .feature-card {
+            background: linear-gradient(145deg, #f8f9fa, #e9ecef);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5em;
+            color: white;
+        }
+        
+        .cta-section {
+            background: linear-gradient(45deg, #28a745, #20c997);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            border-radius: 15px;
+            margin: 40px 0;
+        }
+        
+        .cta-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .cta-button {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+        
+        .cta-button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-3px);
+        }
+        
+        .footer-section {
+            background: #24292f;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-section {
+                padding: 40px 20px;
+            }
+            .hero-section h1 {
+                font-size: 2.5em;
+            }
+            .content-section {
+                padding: 20px;
+            }
+            .badge-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        /* Animation */
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-in {
+            animation: fadeInUp 0.6s ease forwards;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h1>🐍 Python from Scratch</h1>
+            <p>A comprehensive, day-by-day guide to mastering Python basics with detailed explanations and examples.</p>
+
+            <div class="badge-container">
+                <span class="hero-badge">🐍 Python Focused</span>
+                <span class="hero-badge">📚 Beginner Friendly</span>
+                <span class="hero-badge">⏱️ 14-Day Plan</span>
+                <span class="hero-badge">💯 100+ Examples</span>
+                <span class="hero-badge">✨ Interactive Learning</span>
+            </div>
+        </section>
+
+        <!-- Content Section -->
+        <section class="content-section">
+            <!-- Quick Navigation -->
+            <div class="quick-nav animate-in">
+                <h2 style="text-align: center; color: #0969da; margin-bottom: 30px;">📅 Your 14-Day Python Journey</h2>
+
+                <div class="nav-grid">
+                    <div class="nav-card">
+                        <h3>📚 Week 1: Core Fundamentals</h3>
+                        <ul class="day-links">
+                            <li><a href="README.md#day-1">🐍 Day 1: Introduction to Python</a></li>
+                            <li><a href="README.md#day-2">📊 Day 2: Variables and Data Types</a></li>
+                            <li><a href="README.md#day-3">⚡ Day 3: Operators</a></li>
+                            <li><a href="README.md#day-4">📝 Day 4: Strings in Depth</a></li>
+                            <li><a href="README.md#day-5">📋 Day 5: Data Structures: Lists</a></li>
+                            <li><a href="README.md#day-6">🎭 Day 6: Tuples & Sets</a></li>
+                            <li><a href="README.md#day-7">🗂️ Day 7: Dictionaries</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-card">
+                        <h3>🚀 Week 2: Advanced Concepts</h3>
+                        <ul class="day-links">
+                            <li><a href="README.md#day-8">🔀 Day 8: Conditional Statements</a></li>
+                            <li><a href="README.md#day-9">🔄 Day 9: Loops: for</a></li>
+                            <li><a href="README.md#day-10">🔁 Day 10: Loops: while</a></li>
+                            <li><a href="README.md#day-11">🎯 Day 11: Functions</a></li>
+                            <li><a href="README.md#day-12">🔧 Day 12: Advanced Functions</a></li>
+                            <li><a href="README.md#day-13">📁 Day 13: File I/O</a></li>
+                            <li><a href="README.md#day-14">📦 Day 14: Modules and Libraries</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features Showcase -->
+            <h2 style="text-align: center; color: #0969da; margin: 50px 0 30px;">🎯 What You'll Master</h2>
+            <div class="features-showcase">
+                <div class="feature-card animate-in">
+                    <div class="feature-icon">🐍</div>
+                    <h3>Python Fundamentals</h3>
+                    <p>Master variables, data types, operators, and core Python concepts with hands-on examples.</p>
+                </div>
+
+                <div class="feature-card animate-in">
+                    <div class="feature-icon">📊</div>
+                    <h3>Data Structures</h3>
+                    <p>Learn lists, tuples, sets, and dictionaries to organize and manipulate data effectively.</p>
+                </div>
+
+                <div class="feature-card animate-in">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Control Flow</h3>
+                    <p>Understand conditional statements, loops, and functions to control program execution.</p>
+                </div>
+
+                <div class="feature-card animate-in">
+                    <div class="feature-icon">📁</div>
+                    <h3>File Operations</h3>
+                    <p>Handle file I/O operations and work with modules to create robust applications.</p>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="cta-section animate-in">
+                <h2>🚀 Ready to Start Your Python Journey?</h2>
+                <p style="font-size: 1.2em; margin-bottom: 20px;">
+                    Join thousands of learners who have successfully mastered Python with our structured approach!
+                </p>
+
+                <div class="cta-buttons">
+                    <a href="README.md" class="cta-button">📖 Start Learning Now</a>
+                    <a href="index.html" class="cta-button">🎨 View Full HTML Guide</a>
+                    <a href="#" class="cta-button">📱 Download PDF</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-section">
+            <p><strong>Made with ❤️ for Python learners everywhere</strong></p>
+            <p style="margin-top: 10px; opacity: 0.8;">
+                © 2025 Python Learning Guide |
+                <a href="https://github.com" style="color: #58a6ff;">GitHub</a> |
+                <a href="https://python.org" style="color: #58a6ff;">Python.org</a>
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        // Animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Observe all animated elements
+            document.querySelectorAll('.feature-card, .nav-card, .cta-section').forEach(el => {
+                observer.observe(el);
+            });
+
+            console.log('🐍 Python Learning Guide - GitHub Pages Version Loaded!');
+        });
+    </script>
+</body>
+
+</html>
