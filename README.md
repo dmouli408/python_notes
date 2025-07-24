@@ -62,6 +62,44 @@
 - **CLI:** Command Line Interface
 - **Interpreter:** Program that executes Python code
 
+
+### 🗝️ Python Keywords (Reserved Words)
+Python keywords are reserved and cannot be used as variable names:
+```python
+import keyword
+print(keyword.kwlist)  # List all Python keywords
+# Examples: False, True, None, and, as, assert, break, class, continue, def, del, elif, else, except, finally, for, from, global, if, import, in, is, lambda, nonlocal, not, or, pass, raise, return, try, while, with, yield
+```
+
+### 🧑‍💻 Indentation & Whitespace
+Python uses indentation (spaces/tabs) to define code blocks. No braces `{}`!
+```python
+if True:
+    print("Indented block!")
+    # 4 spaces is standard (PEP 8)
+```
+
+### 💤 The `pass` Statement
+Use `pass` as a placeholder for empty code blocks:
+```python
+def future_function():
+    pass  # Does nothing
+```
+
+### 🆘 Getting Help
+Use `help()` for built-in docs:
+```python
+help(print)
+help(str)
+```
+
+### 🏷️ The `__name__ == "__main__"` Idiom
+Run code only if the file is executed directly:
+```python
+if __name__ == "__main__":
+    print("This script is running directly!")
+```
+
 ### 🐍 Your First Python Program
 ```python
 # This is a comment. It is ignored by Python.
@@ -317,12 +355,14 @@ python my_script.py
 - Only letters, numbers, underscores
 - Case-sensitive
 
+
 ### 🛠️ Abbreviations
 - <b>int</b>: Integer
 - <b>float</b>: Floating-point number
 - <b>str</b>: String
 - <b>bool</b>: Boolean
 - <b>type()</b>: Returns the type of a variable
+- <b>id()</b>: Returns the memory address of an object
 
 ### 📊 Data Types in Python
 | Type | Example | Description |
@@ -338,9 +378,92 @@ python my_script.py
 - <code>str()</code>: Convert to string
 - <code>bool()</code>: Convert to boolean
 
+
 ### 💡 Special Types
 - <b>NoneType</b>: <code>None</code> means no value
 - <b>Complex</b>: <code>3+4j</code> (rarely used in basics)
+
+### 🧬 Mutability vs. Immutability
+- <b>Mutable:</b> Can be changed after creation (e.g., lists, dicts)
+- <b>Immutable:</b> Cannot be changed (e.g., int, float, str, tuple)
+```python
+my_list = [1, 2, 3]
+my_list[0] = 99  # OK
+my_str = "hello"
+# my_str[0] = "H"  # Error: 'str' object does not support item assignment
+```
+
+### 🧹 Deleting Variables
+```python
+x = 10
+del x
+# print(x)  # NameError: name 'x' is not defined
+```
+
+### 🔍 Checking Variable Existence
+```python
+var_name = "x"
+print("x" in locals())  # False (if x not defined)
+print("x" in globals()) # False (if x not defined)
+```
+
+### 🏷️ Type Hints (Python 3.5+)
+```python
+def add(a: int, b: int) -> int:
+    return a + b
+```
+
+### 🆔 Memory Address with `id()`
+```python
+y = 123
+print(id(y))  # Unique integer for object's memory address
+```
+
+### 🔢 Underscores in Numbers
+```python
+big_number = 1_000_000
+print(big_number)  # Output: 1000000
+```
+
+### ➕ Augmented Assignment Operators
+```python
+count = 5
+count += 2  # count = count + 2
+count -= 1  # count = count - 1
+count *= 3  # count = count * 3
+count /= 2  # count = count / 2
+print(count)
+```
+
+### 🧪 More Examples
+1. **Type hints in variables**
+   ```python
+   age: int = 25
+   name: str = "Bob"
+   is_active: bool = True
+   ```
+2. **Check type and memory address**
+   ```python
+   x = "hello"
+   print(type(x), id(x))
+   ```
+3. **Delete and check existence**
+   ```python
+   temp = 123
+   print("temp" in locals())  # True
+   del temp
+   print("temp" in locals())  # False
+   ```
+4. **Immutability demonstration**
+   ```python
+   tup = (1, 2, 3)
+   # tup[0] = 99  # Error: 'tuple' object does not support item assignment
+   ```
+5. **Using underscores in large numbers**
+   ```python
+   population = 7_900_000_000
+   print(population)
+   ```
 
 ### 📜 Examples
 1. **Declaring variables of all types**
